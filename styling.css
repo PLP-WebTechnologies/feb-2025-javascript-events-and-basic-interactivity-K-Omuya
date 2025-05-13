@@ -1,0 +1,75 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Button styling */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Image gallery */
+#gallery img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#gallery img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+/* Form styling */
+form {
+    margin: 20px auto;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #007B9A;
+}
